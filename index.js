@@ -24,7 +24,7 @@ return results;
 
 function prependKitten(name){
   xtraArr += kittens.unshift(name);
-
+return xtraArr;
 
 }
 // function removeLastKitten(){
