@@ -23,7 +23,7 @@ return results;
 }
 
 function prependKitten(name){
-  results += kittens.slice(0,'Arnold');
+  results += kittens.slice(0,2);
   return results;
 
 
