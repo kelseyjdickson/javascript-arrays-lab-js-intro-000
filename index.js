@@ -1,5 +1,6 @@
 var kittens = ["Milo", "Otis", "Garfield"]; //define your array here
 var results = [];
+let xtraArr = [];
 // Add your functions and code here
 function destructivelyAppendKitten(name){
 
@@ -22,15 +23,15 @@ return results;
 }
 
 function prependKitten(name){
-  results += kittens.unshift('Arnold');
-  return results;
+  xtraArr += kittens.unshift(name);
+
 
 }
-function removeLastKitten(){
-  results += kittens.pop('Garfield');
-  return results
-}
-
-function removeFirstKitten(){
-
-}
+// function removeLastKitten(){
+//   results += kittens.pop('Garfield');
+//   return results
+// }
+//
+// function removeFirstKitten(){
+//
+// }
