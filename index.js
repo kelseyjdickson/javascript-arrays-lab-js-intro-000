@@ -23,8 +23,8 @@ return results;
 }
 
 function prependKitten(name){
-  xtraArr += kittens.unshift('Arnold');
-return xtraArr;
+  results += kittens.unshift('Arnold');
+return results;
 
 }
 // function removeLastKitten(){
