@@ -23,16 +23,13 @@ return results;
 }
 
 function prependKitten(name){
-  results += kittens.slice(0,1);
-  return results;
-
-
+    return [name, ...kittens]
 }
-// function removeLastKitten(){
-//   results += kittens.pop('Garfield');
-//   return results
-// }
-//
-// function removeFirstKitten(){
-//
-// }
+
+function removeLastKitten(){
+    return kittens.slice(0,kittens.length-1)
+}
+
+function removeFirstKitten(){
+    return kittens.slice(1)
+}
