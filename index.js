@@ -23,7 +23,7 @@ return results;
 }
 
 function prependKitten(name){
-  results += kittens.shift();
+  results += kittens.unshift();
   return results;
 
 
